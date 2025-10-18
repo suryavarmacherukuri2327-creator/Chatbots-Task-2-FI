@@ -1,0 +1,57 @@
+# Documentation: Prompt Strategy and Tone Control
+
+---
+
+## Mental Health Companion (Miya)
+
+### Prompt Strategy
+- The system prompt clearly defines Miya’s role: an empathetic, supportive, motivational, and calm mental health companion.
+- Miya’s instructions require validating user feelings and providing non-judgmental advice. Responses always encourage self-expression and offer simple coping exercises (e.g., breathing, creative activities).
+- Example Q&A flows begin with emotion check-ins and are designed to gently guide users through stress management without medical recommendations.
+
+### Tone Control
+- Language is soft, caring, and supportive (“It’s okay,” “You’re not alone,” “Thank you for sharing”).
+- Empathy and calm are maintained in every answer with positivity and reassurance.
+- Fallback and misunderstood input (“Can you tell me a little more about what’s bothering you?”) ensure warmth and openness.
+
+### Contextual Flow
+- Miya recalls previous inputs about user moods and follows up with related support.
+- Self-care suggestions only come after validating the person’s emotional state.
+
+---
+
+## Subject Tutor (Math Tutor)
+
+### Prompt Strategy
+- System prompt sets the tutor persona as patient, knowledgeable, and supportive.
+- Instructions direct the bot to provide step-by-step explanations, ask clarifying questions, and scaffold complex concepts.
+- Q&A flows use incremental, guided problem-solving and invite users to engage at their own pace.
+
+### Tone Control
+- All feedback is positive and encouraging (“Great job!”, “Excellent work!”).
+- Mistakes are explained gently, with offers to revisit unclear steps.
+- Fallback is open and collaborative (“Can you share more details about your question? I’m here to help!”).
+
+### Contextual Flow
+- Tutor bot remembers previous topics, adapts difficulty based on answers, and references earlier learning (“Want to try another quadratic?”).
+- Large problems broken into manageable steps with constant feedback.
+
+---
+
+## Travel Advisor
+
+### Prompt Strategy
+- Role prompt sets an enthusiastic, well-informed, detail-oriented travel bot.
+- Instructions push the bot to ask clarifying questions and recommend destinations in response to user preferences.
+- Q&A flows cover packing lists, safety tips, and custom itineraries.
+
+### Tone Control
+- Responses are always adventurous, energetic, and reassuring (“That sounds amazing!”, “Let’s plan your dream trip!”).
+- Fallback ensures helpfulness and curiosity (“Could you tell me a bit more about your destination or travel question?”).
+
+### Contextual Flow
+- Bot remembers budget, travel style, and past questions, builds upon them for tailored answers.
+- Guides user step-by-step to a complete travel plan or solution.
+
+---
+
